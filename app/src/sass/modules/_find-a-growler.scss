@@ -1,0 +1,24 @@
+.find-a-growler {
+  padding: 2em 0;
+}
+
+.find-a-growler__grid {
+  display: flex;
+  justify-content: space-between;
+  @include breakpoint($second-breakpoint) {
+    flex-wrap: wrap;
+  }
+}
+
+.find-a-growler__content {
+  margin-right: 1em;
+  width: 40%;
+  @include breakpoint($second-breakpoint) {
+    width: 100%;
+    margin: 0 0 1em 0;
+  }
+}
+
+.find-a-growler__heading {
+  max-width: 90%;
+}

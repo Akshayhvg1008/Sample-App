@@ -1,0 +1,49 @@
+.latest-feeds {
+}
+
+.latest-feeds__twitter {
+  background-color: $dark;
+  padding: 2em 0;
+  color: white;
+}
+
+.latest-feeds__instagram {
+  padding: 2em 1em;
+  color: $dark;
+}
+
+.latest-feeds__heading {
+  color: $yellow;
+}
+
+.latest-feeds__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.latest-feeds__item {
+  color: $dark;
+  margin: 0;
+  width: 30%;
+  padding: 1em;
+  background-color: white;
+  border-radius: 1px;
+  font-style: italic;
+
+  @include breakpoint($second-breakpoint) {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+}
+
+.latest-feeds__text {
+  background-color: lighten($dark, 75%);
+  padding: .5em;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+.latest-feeds__caption {
+  margin-top: 1em;
+}

@@ -1,0 +1,42 @@
+.intro {
+  background-image: url('/app/images/beer-cheers.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.intro__shading {
+  background-color: rgba($yellow, .85);
+  padding: 4em 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include breakpoint($third-breakpoint) {
+    padding: 2em 1em;
+  }
+}
+
+.intro__heading-icon {
+  width: 80px;
+  display: inline-block;
+  @include breakpoint($third-breakpoint) {
+    width: 50px;
+  }
+}
+
+.intro__title {
+  font-size: 4em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: .25em 0;
+  @include breakpoint($third-breakpoint) {
+    font-size: 2em;
+  }
+}
+
+.intro__tagline {
+  margin: 0;
+  font-size: .875em;
+  text-transform: uppercase;
+}

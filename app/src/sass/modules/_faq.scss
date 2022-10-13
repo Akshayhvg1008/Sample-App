@@ -1,0 +1,25 @@
+.faq {
+  background-color: $dark;
+  padding: 2em 0;
+  color: white;
+}
+
+.faq__heading {
+  color: $yellow;
+}
+
+.faq__title {
+  margin: 1.5em 0 .5em 0;
+  color: $yellow;
+  @include breakpoint($third-breakpoint) {
+    margin: 2em 0 1em 0;
+  }
+}
+
+.faq__description {
+  line-height: 1.75;
+
+  @include breakpoint($third-breakpoint) {
+    margin: 0;
+  }
+}

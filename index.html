@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+  <!--[if lt IE 9]>  <html lang="en" class="no-js lt-ie9"> <![endif]-->
+  <!--[if IE 9 ]>    <html lang="en" class="no-js ie9">    <![endif]-->
+  <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Growler Friday</title>
+
+    <meta name="description" content="Growler Friday is a celebration akin to sitting around a campfire with friends - but instead of a fire, there’s a growler! Pop it open, pour one for your buddies, and sit back and relax; it’s as easy as that.">
+
+    <!-- Test your adherence to Open Graph here: https://developers.facebook.com/tools/debug/og/object -->
+    <meta property="og:image" content="http://growlerfriday.com/app/images/growler-friday-og-image.jpg">
+    <meta property="og:title" content="Growler Friday">
+    <meta property="og:url"   content="http://growlerfriday.com">
+    <meta property="og:type"  content="website">
+    <meta property="og:description"  content="Growler Friday is a celebration akin to sitting around a campfire with friends - but instead of a fire, there’s a growler! Pop it open, pour one for your buddies, and sit back and relax; it’s as easy as that.">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@growlerfriday" />
+    <meta name="twitter:creator" content="@thecodeboss" />
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimal-ui">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/app/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/app/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/app/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/app/images/favicon/manifest.json">
+    <link rel="mask-icon" href="/app/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/app/images/favicon/favicon.ico">
+    <meta name="msapplication-config" content="/app/images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="app/dist/css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header class="navbar" role="banner">
+      <nav class="navbar__nav" aria-haspopup="true">
+        <img class="navbar__logo" src="/app/images/growler-white.png" alt="Growler Friday Logo">
+        <aside class="navbar__social-media-group">
+          <!-- <a class="navbar__social&#45;media social&#45;media base&#45;icon&#45;instagram" target="_blank" -->
+          <!--   href="https://www.instagram.com/growlerfriday/" title="instagram"></a> -->
+          <a class="navbar__social-media social-media base-icon-twitter" target="_blank"
+            href="https://www.twitter.com/growlerfriday/" title="twitter"></a>
+        </aside>
+      </nav>
+    </header>
+    <main role="main" id="content">
+      <header class="intro">
+        <div class="intro__shading">
+          <div class="container">
+            <img class="intro__heading-icon" src="/app/images/growler-icon-dark.png" alt="Growler Friday Icon">
+            <h1 class="intro__title">Growler Friday</h1>
+            <p class="intro__tagline">The Proper Way to Start Your Weekend</p>
+          </div>
+        </div>
+      </header>
+      <section class="countdown">
+        <div class="countdown__not-friday">
+          <div class="countdown__clock" id="clock"></div>
+          <h2 class="countdown__title">Until Friday!</h2>
+        </div>
+        <div class="countdown__friday">
+          <div class="pyro">
+            <div class="before"></div>
+            <div class="after"></div>
+          </div>
+          <h2 class="countdown__friday-heading">IT'S FRIDAY!</h2>
+        </div>
+      </section>
+      <section class="faq">
+        <div class="container">
+          <h2 class="faq__heading">FAQ</h2>
+          <dl class="faq__list">
+            <dt class="faq__title">What’s Growler Friday?</dt>
+            <dd class="faq__description">Growler Friday is a celebration akin to sitting around
+            a campfire with friends - but instead of a fire, there’s a growler!
+            Pop it open, pour one for your buddies, and sit back and relax; it’s as
+            easy as that. Growlers build teamwork and comradery, because you
+            should always have a group of friends to help you take down a whole
+            growler. Oh, and it has to take place on a Friday. We spelled it out in case you
+            hadn’t figure that out yet.</dd>
+            <dt class="faq__title">What’s a growler?</dt>
+            <dd class="faq__description">A growler is typically a 64 oz. vessel
+            that's filled with fresh beer right from the tap of a brewery. You can think
+            of them like refillable mini kegs. You’ll have to check with your state’s
+            laws, but often you can
+            only legally fill up a growler on the premises of the brewery that
+            produces that beer. That means you can’t go to your local bar down the
+            road and fill up whatever you want. Growlers can also come in 32 oz.
+            sizes (sometimes called growlettes).</dd>
+            <dt class="faq__title">Anything I should know about using a growler?</dt>
+            <dd class="faq__description">YES. Once you fill up a growler, you should plan to drink it
+            within a week (that way the beer will be freshest) - and the
+            absolute golden rule is that once you open a growler,
+            you need to drink it all within that session. Resealed growlers will
+            lose carbonation quickly, and no one wants that. This is why you probably
+            don’t want to do Growler Friday alone - you’ll want a team helping
+            you.</dd>
+            <dt class="faq__title">What time should I celebrate?</dt>
+            <dd class="faq__description">Whenever you feel the need to say goodbye to your work week and
+            say hello to the weekend! Maybe that's during lunch, or maybe that's at a
+            friday night get-together - you decide!</dd>
+            <dt class="faq__title">What if I work on the weekends?</dt>
+            <dd class="faq__description">Despite the name, Growler Friday
+            doesn't actually have to be celebrated on a Friday; you can
+            celebrate on whatever day precedes your weekend. The only rule is
+            that you still have to call it Growler Friday - so if your days off
+            are Wednesday and Thursday, then you would be celebrating "Growler
+            Friday on a Tuesday."</dd>
+          </dl>
+        </div>
+      </section>
+      <section class="find-a-growler">
+        <div class="find-a-growler__grid container">
+          <div class="find-a-growler__content">
+            <h2 class="find-a-growler__heading">Where Can I Fill Up my Growler?</h2>
+            <p class="find-a-growler__text">Many breweries will fill growlers -
+            but not all of them. Enter your zip code to see what's available near you.</p>
+            <p class="find-a-growler__text"><em>Currently only showing locations
+              for Oklahoma zip codes</em>.</p>
+            <form role="search" id="searchForm" class="form" action="" method="post">
+              <div class="form__group">
+                <label class="form__label" for="zipCode">Zip Code</label>
+                <input class="form__input" type="text" name="zipCode"
+                  id="zipCode" value="" required aria-required>
+                <button class="form__submit" type="submit">Search</button>
+              </div>
+            </form>
+          </div>
+          <div class="map" id="map_canvas"></div>
+        </div>
+      </section>
+      <section class="latest-feeds">
+        <div class="latest-feeds__twitter">
+          <div class="container">
+            <h2 class="latest-feeds__heading">Latest #GrowlerFriday Tweets</h2>
+            <div id="twitterFeeds" class="latest-feeds__container"></div>
+          </div>
+        </div>
+      </section>
+      <section class="showcase">
+        <div class="container">
+          <h2 class="showcase__heading">Growler Friday Showcase</h2>
+          <div id="showcaseContainer" class="showcase__container">
+            <img class="showcase__item"
+            src="/app/images/showcase/anthem-big-growler.jpg" alt="Anthem
+            Growler with Clevyr Sticker" />
+            <img class="showcase__item"
+            src="/app/images/showcase/mem-day-growler.jpg" alt="Elk Valley
+            Growler on Memorial Day" />
+            <img class="showcase__item"
+            src="/app/images/showcase/anthem-xmas-growler.jpg" alt="Aaron Krauss
+            drinking Anthem's Uroboros stout from the growler" />
+            <img class="showcase__item"
+            src="/app/images/showcase/oklahoma-flights.jpg" alt="Some craft beer
+            flights" />
+            <img class="showcase__item"
+            src="/app/images/showcase/stone-growler.jpg" alt="A cool shaped
+            growler from Stone Brewing" />
+            <img class="showcase__item"
+            src="/app/images/showcase/anthem-small-growler.jpg" alt="Growlette
+            from Anthem" />
+          </div>
+        </div>
+      </section>
+      <section class="join-the-movement">
+        <div class="container">
+          <h2 class="join-the-movement__heading">- Join The Movement -</h2>
+          <h3 class="join-the-movement__hashtag">#GROWLERFRIDAY</h3>
+        </div>
+      </section>
+    </main>
+    <footer class="contentinfo" role="contentinfo">
+      <p class="contentinfo__text">&copy;<script>document.write(new Date().getFullYear())</script><noscript>2017</noscript>
+      Growler Friday. All Rights Reserved.</p>
+      <aside class="navbar__social-media-group">
+        <!-- <a class="social&#45;media base&#45;icon&#45;instagram" target="_blank" -->
+        <!--   href="https://www.instagram.com/growlerfriday/" title="instagram"></a> -->
+        <a class="social-media base-icon-twitter" target="_blank"
+          href="https://www.twitter.com/growlerfriday/" title="twitter"></a>
+      </aside>
+    </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByrW6eAcZAjn1nKmlneYVzWa0VrDPg-go"></script>
+    <script src="app/src/js/vendor/jquery.min.js"></script>
+    <script src="app/src/js/vendor/jquery.countdown.js"></script>
+    <script src="app/src/js/vendor/es5-shim.min.js"></script>
+    <script src="app/src/js/vendor/es5-sham.min.js"></script>
+    <script src="app/src/js/vendor/slick.min.js"></script>
+    <script src="app/src/js/vendor/moment.min.js"></script>
+    <script src="app/dist/js/app.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXXXXX-X to be your site's ID. -->
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto');
+      ga('require', 'autotrack');
+      ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <script async src="app/src/js/vendor/autotrack.js"></script>
+
+  </body>
+</html>

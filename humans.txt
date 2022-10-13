@@ -1,0 +1,19 @@
+# humanstxt.org/
+
+/* TEAM */
+Your title:   thecodeboss
+Site:         https://thesocietea.org
+Github:       https://github.com/alkrauss48
+Twitter:      @thecodeboss
+Location:     Oklahoma City, OK, US
+
+
+/* THANKS */
+Name:         Aaron Krauss
+
+
+/* SITE */
+Last update:  YYYY/MM/DD
+Standards:    HTML5, CSS3, ES6
+Components:   Susy, Normalize, Modernizr, jQuery
+Dev Tools:    Sass, Gulp, Bower, NPM

@@ -1,0 +1,44 @@
+.showcase {
+  padding: 2em 0;
+}
+
+.showcase__item {
+  margin: 0 1em;
+  height: 250px;
+  width: auto;
+
+  @include breakpoint($second-breakpoint) {
+    height: 200px;
+    margin: 0 .5em;
+  }
+
+  @include breakpoint($third-breakpoint) {
+    height: 150px;
+  }
+}
+
+.showcase__container {
+  @include breakpoint($first-breakpoint) {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}
+
+.slick-prev:before, .slick-next:before {
+  color: $dark;
+  font-family: 'base-icon-fonts';
+}
+
+.slick-prev {
+  left: -40px;
+  &:before {
+    content: "\f053";
+  }
+}
+
+.slick-next {
+  right: -40px;
+  &:before {
+    content: "\f054";
+  }
+}
